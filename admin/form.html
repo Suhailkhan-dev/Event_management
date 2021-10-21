@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aladin">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alex+Brush">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="assets/css/ensign-form.css">
+    <link rel="stylesheet" href="assets/css/ensign-form1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/PHP-Contact-Form-dark.css">
+    <link rel="stylesheet" href="assets/css/PHP-Contact-Form-dark1.css">
+    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="assets/css/select2.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md" style="background-color:#663a82;">
+            <div class="container-fluid"><a class="navbar-brand" href="home1.php" style="font-family:'Alex Brush', cursive;font-size:36px;color:rgba(255,255,255,0.9);">Wishberry</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="table.php" style="color:#ffffff;font-family:'Alex Brush', cursive;font-size:20px;">View</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="gallery1.php" style="color:#ffffff;font-family:'Alex Brush', cursive;font-size:20px;">Gallery</a></li>
+                    </ul>
+            </div>
+    </div>
+    </nav>
+    </div>
+    <form method="post" action="insert.php">
+        <div style="height:500px;background-image:url(&quot;assets/img/seyedeh-hamideh-kazemi-Y4DNR1dyEKE-unsplash.jpg&quot;);background-size:cover;background-repeat:no-repeat;padding-right:0px;">
+            <h1 style="background-color:rgba(255,255,255,0.75);height:60px;padding-top:2px;color:#000000;">CLIENT DETAILS</h1><input class="form-control" type="text" name="NAME" placeholder="NAME" style="background-color:rgba(243,243,243,0.8);color:#000000;"><input class="form-control" type="text" name="clphone" placeholder="PHONE NUMBER" style="background-color:rgba(243,243,243,0.8);">
+			<input class="form-control" type="text" name="ADDRESS" placeholder="ADDRESS" style="background-color:rgba(243,243,243,0.8);"><input class="form-control" type="email" name="email_id" placeholder="E-MAIL ID" style="background-color:rgba(243,243,243,0.8);"><input class="form-control" type="date" name="date" placeholder="MARRIAGE DATE" style="background-color:rgba(243,243,243,0.8);"></div>
+        <div style="height:500px;background-image:url(&quot;assets/img/abby-savage-zNsSwsuyP3A-unsplash.jpg&quot;);background-size:cover;background-repeat:no-repeat;padding-right:0px;">
+            <h1 style="background-color:rgba(255,255,255,0.75);height:60px;padding-top:2px;color:#000000;">VENUE</h1><select class="form-control" name="venue_name"  style="background-color:rgba(243,243,243,0.8);color:#000000;"><optgroup label="venue" ><option value="lalitha" selected="">LALITHA MAHAL PALACE</option><option value="umaid">UMAID BHAWAN</option><option value="oberoi">OBEROI UDAIVILAS</option><option value="palace">PALACE GROUNDS</option></optgroup></select>
+            <input
+                class="form-control" type="text" name="VENUE_LOCATION" placeholder="VENUE LOCATION" style="background-color:rgba(243,243,243,0.8);color:#000000;"><input class="form-control" type="text" name="VPHONE" placeholder="PHONE NUMBER" style="background-color:rgba(243,243,243,0.8);"><input class="form-control" type="text" name="VCOST" placeholder="COST" style="background-color:rgba(243,243,243,0.8);"></div>
+
+    <div style="height:500px;background-image:url(&quot;assets/img/dil-F35EmcotWPY-unsplash.jpg&quot;);background-repeat:no-repeat;background-size:cover;">
+        <h1 style="background-color:rgba(255,255,255,0.75);height:60px;color:#000000;padding:8px;">THEME</h1><select style="width:1350px;height:38px;background-color:rgba(255,255,255,0.75);padding-left:7px;" name="tname"><optgroup label="THEME" ><option value="INDIAN" selected="">INDIAN</option><option value="RUSTIC">RUSTIC</option><option value="VINTAGE">VINTAGE</option><option value="FLORAL">FLORAL</option></optgroup></select>
+        <input
+            type="text" name="TCOST" placeholder="COST" style="width:1350px;height:38px;background-color:rgba(255,255,255,0.75);padding-left:10px;"></div>
+    <div style="height:500px;background-image:url(&quot;assets/img/yellow-balloon-beside-white-balloon-226737.jpg&quot;);background-color:#ffffff;background-repeat:no-repeat;background-size:cover;">
+        <h1 style="background-color:rgba(255,255,255,0.5);height:60px;padding:6px;">DECORATION</h1><select id="doc" style="background-color:rgba(255,255,255,0.75);" name="dname"><optgroup label="DECORATION" ><option value="TIP TOP" selected="">TIP TOP</option><option value="NOVA">NOVA</option><option value="QUANTA">QUANTA</option><option value="STELLAS">STELLAS</option></optgroup></select>
+        <input
+            type="text" name="DPH" placeholder="PHONE NUMBER" id="dic" style="background-color:rgba(255,255,255,0.75);"><input type="text" placeholder="COST" name="DCOST" id="dec" style="background-color:rgba(255,255,255,0.75);"></div>
+    <div style="height:500px;background-image:url(&quot;assets/img/celebration-colorful-colourful-cupcakes-587741.jpg&quot;);background-repeat:no-repeat;background-size:cover;">
+        <h1 style="background-color:rgba(255,255,255,0.75);height:60px;padding:4px;">CATERERS</h1><select style="width:1350px;height:38px;padding-left:10px;background-color:rgba(255,255,255,0.75);" name="ctname"><optgroup label="CATERERS" ><option value="ADYAR ANAND BHAVAN" selected="">ADYAR ANAND BHAVAN</option><option value="RAHAMS">RAHAMS</option><option value="GOOD WILL">GOOD WILL</option><option value="CLUSTER">CLUSTER</option></optgroup></select>
+        <input
+            type="text" placeholder="PHNOE NUMBER" name="ctph" style="background-color:rgba(255,255,255,0.76);width:1350px;height:32px;padding-left:10px;"><input type="text" name="ctcost" placeholder="COST" style="background-color:rgba(255,255,255,0.76);width:1350px;height:32px;padding-left:10px;"></div>
+    <div style="height:500px;background-image:url(&quot;assets/img/clothes-1620x911.jpg&quot;);">
+        <h1 style="background-color:rgba(255,255,255,0.75);height:60px;padding:1px;">CLOTHING AND ACCESSORIES</h1><select style="width:1350px;height:38px;padding-left:10px;background-color:rgba(255,255,255,0.75);" name="caname"><optgroup label="clothing" ><option value="MANISH MALHOTRA" selected="">MANISH MALHOTRA</option><option value="SABYASACHI MUKHERJI">SABYASACHI MUKHERJI</option><option value="ANITA DONGI">ANITA DONGI</option><option value="ABU JANI">ABU JANI</option></optgroup></select>
+        <input
+            type="text" name="caph" placeholder="PHONE NUMBER" style="width:1350px;height:38px;padding-left:10px;background-color:rgba(255,255,255,0.75);"><input type="text" name="cacost" placeholder="COST" style="width:1350px;height:38px;padding-left:10px;background-color:rgba(255,255,255,0.75);"></div>
+    <div style="height:500px;background-image:url(&quot;assets/img/melvin-thambi-IbcHiL414GM-unsplash.jpg&quot;);background-repeat:no-repeat;background-size:cover;">
+        <h1 style="background-color:rgba(255,255,255,0.75);height:60px;padding:7px;">MAKEUP</h1><select style="background-color:rgba(255,255,255,0.75);height:38px;width:1350px;padding-left:10px;" name="mname"><optgroup label="MAKEUP ARTISTS" ><option value="AMBIKA PILLAI" selected="">AMBIKA PILLAI</option><option value="SUBHASH SHINDE">SUBHASH SHINDE</option><option value="MOHAN KAPOOR">MOHAN KAPOOR</option><option value="HUDA KATTAN">HUDA KATTAN</option></optgroup></select>
+        <input
+            type="text" name="mph" placeholder="PHONE NUMBER" style="padding-left:10px;width:1350px;height:38px;background-color:rgba(255,255,255,0.75);"><input type="text" name="mcost" placeholder="COST" style="padding-left:10px;width:1350px;height:38px;background-color:rgba(255,255,255,0.75);"></div>
+    
+    <div style="height:500px;background-image:url(&quot;assets/img/camera-lens.jpg&quot;);background-size:cover;background-repeat:no-repeat;">
+        <h1 style="background-color:rgba(255,255,255,0.75);height:60px;padding:5px;">PHOTOGRAPHY</h1><select style="padding-left:10px;background-color:rgba(255,255,255,0.75);width:1350px;height:38px;"  name="pname"><optgroup label="PHOTO STUDIO"><option value="GK VALE" selected="">GK VALE</option><option value="SNAP BITE">SNAP BITE</option><option value="GIBS STUDIO">GIBS STUDIO</option><option value=" PICTURE PERFECT"> PICTURE PERFECT</option></optgroup></select>
+        <input
+            type="text" name="pph" placeholder="PHONE NUMBER" style="width:1350px;height:38px;padding-left:10px;background-color:rgba(255,255,255,0.75);"><input type="text" name="pcost" placeholder="COST" style="width:1350px;height:38px;padding-left:10px;background-color:rgba(255,255,255,0.75);"></div>
+    <div style="height:500px;background-image:url(&quot;assets/img/photo-1475744214834-0cb9be6eb226.jpg&quot;);background-repeat:no-repeat;background-size:cover;">
+        <h1 style="background-color:rgba(255,255,255,0.75);height:60px;padding:4px;">MUSIC</h1><select style="padding-left:10px;width:1350px;height:38px;background-color:rgba(255,255,255,0.75);" name="muname"><optgroup label="MUSICIANS" ><option value="SUHAIL KHAN" selected="">SUHAIL KHAN</option><option value="ARMAN MALIK">ARMAN MALIK</option><option value="BADSHAH">BADSHAH</option><option value="ED SHEERAN">ED SHEERAN</option></optgroup></select>
+        
+		<input type="text" name="genre" placeholder="GENRE" style="background-color:rgba(255,255,255,0.75);padding-left:10px;width:1350px;height:38px;">
+		<input type="text" name="mucost" placeholder="COST" style="background-color:rgba(255,255,255,0.75);padding-left:10px;width:1350px;height:38px;">
+		<input type="text" name="muph" placeholder="PHONE NUMBER" style="background-color:rgba(255,255,255,0.75);padding-left:10px;width:1350px;height:38px;"></div>
+    <div style="padding:24px;"><button class="btn btn-primary" type="submit" data-aos="slide-up" data-aos-duration="900" style="background-color:#663a82 ;padding:16px;width:147px;margin:24px;">SUBMIT</button><button class="btn btn-primary" type="reset" data-aos="slide-up" data-aos-duration="900"
+            style="background-color:#663a82 ;padding:16px;width:147px;">RESET</button></div>
+			    </form>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="assets/js/PHP-Contact-Form-dark.js"></script>
+    <script src="assets/js/PHP-Contact-Form-dark1.js"></script>
+    <script src="assets/js/select2.js"></script>
+    <script src="assets/js/select21.js"></script>
+    <script src="assets/js/select22.js"></script>
+    <script src="assets/js/select23.js"></script>
+    <script src="assets/js/select24.js"></script>
+    <script src="assets/js/select25.js"></script>
+    <script src="assets/js/select26.js"></script>
+</body>
+
+</html>

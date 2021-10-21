@@ -1,0 +1,37 @@
+div {
+  text-align:center;
+}
+
+select.form-control:not([size]):not([multiple]) {
+  text-align:center;
+}
+
+div {
+}
+
+div {
+}
+
+#dec {
+  height:38px;
+  width:1350px;
+  padding-left:10px;
+}
+
+#dic {
+  height:38px;
+  width:1350px;
+  padding-left:10px;
+}
+
+#doc {
+  height:38px;
+  width:1350px;
+  padding-left:10px;
+}
+
+.h1, h1 {
+  text-align:center;
+  padding:20px;
+}
+
